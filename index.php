@@ -56,8 +56,8 @@
 			      <td><?php echo $key["apellido_apersona"] ?></td>
 			      <td><?php echo $key["cargo"] ?></td>
 			      <td>
-			      	<a class="btn btn-sm btn-success" type="" href="index.php">Edit</a>
-			      	<a class="btn btn-sm btn-danger" type="">Delete</a>
+			      	<a class="btn btn-sm btn-success" type="" href="editar.php?id=<?php echo $key["id_persona"] ?>">Edit</a>
+			      	<a class="btn btn-sm btn-danger" type="" href="eliminar.php?id=<?php echo $key["id_persona"] ?>">Delete</a>
 
 
 			      </td>
@@ -110,11 +110,7 @@
 
 
 				</div>
-			  
-			  
-			  
-			  
-			  
+ 
 			</form>
 			
 		</div>
